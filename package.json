@@ -1,0 +1,26 @@
+{
+  "name": "nextbase",
+  "version": "1.0.0",
+  "description": "A base project for my Next.js projects.",
+  "main": "index.js",
+  "repository": "https://github.com/frankalbenesius/nextbase.git",
+  "author": "Frank Albenesius <frankalbenesius@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^14.1.0",
+    "glamor": "^2.20.22",
+    "next": "beta",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
